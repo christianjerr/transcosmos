@@ -1,0 +1,169 @@
+*{
+    font-family: century gothic;
+}
+
+body{
+    padding: 0px;
+    margin: 0px ;
+}
+ul , li{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 20px 100px 20px 100px;
+    position: fixed;
+}
+header nav {
+    float: right;
+}
+
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: gray;
+    padding: 0px 10px;
+    height: 50px;
+    line-height: 50px;
+}
+#logo img{
+    position: absolute;
+}
+
+#showcase{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/main.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    
+}
+#mainLogoContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+#mainLogoContainer img{
+    height: 250px;
+}
+.btn{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: rgba(100,100,100,0.5);
+    border: none;
+    transition: 1s;
+}
+#sell{
+    padding: 100px 200px 100px 200px;
+    background: #20252D;
+    color: white;
+    text-align: center;
+   
+}
+#sell h1{
+    padding: 0;
+    margin: 0;
+}
+#howWorks{
+    background: white;
+    height: 100%;
+    padding: 100px 200px 100px 200px;
+    text-align: center;
+}
+#sites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sites img{
+    width: 80px;
+}
+#customers{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#range{
+    padding: 100px;
+    background: lightgray;
+    height: 100%;
+    text-align: center;
+}
+#services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    margin-top: 50px;
+}
+#services p{
+    margin-top: 50px;
+    text-align: justify;
+}
+#whyTranscosmos{
+    padding: 100px;
+}
+#partialClients{
+     margin-top: 50px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+#clientList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+   
+}
+#box{
+    background: gray;
+    height: 100%;
+    width: 100%;
+}
+
+#claim{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),lightblue;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+#newsletter{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 5rem;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+}
